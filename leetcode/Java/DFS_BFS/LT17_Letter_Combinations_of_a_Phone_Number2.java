@@ -1,4 +1,4 @@
-class Solution { // 5ms
+class Solution { // 5ms bfs
     public List<String> letterCombinations(String digits) {
         if (digits.length() == 0) return new ArrayList<String>();
         

@@ -1,6 +1,6 @@
 //reference: https://zxi.mytechroad.com/blog/searching/leetcode-17-letter-combinations-of-a-phone-number/
 
-class Solution {
+class Solution { // dfs
     public List<String> letterCombinations(String digits) {
         String[] d = new String[] {" ",
                                    "",

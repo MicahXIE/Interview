@@ -18,7 +18,7 @@ LT105 Construct Binary Tree from Preorder and Inorder Traversal (3ms 64.17%)
 LT114 Flatten Binary Tree to Linked List (1ms 43.92%)
 LT139 Word Break (8ms 46.78%)
 LT146 LRU Cache (21ms, 36.50%) C++ (220ms, 40.81%)
-      
+LT148 Bottom Up Merge Sort
 
 
 To do list:
@@ -27,3 +27,9 @@ LT148 Sort List
 LT406 Queue Reconstruction by Height
 LT124 Binary Tree Maximum Path Sum
 二叉树中的最大路径和
+
+1) Find recursive relation
+2) Recursive (top-down)
+3) Recursive + memo (top-down)
+4) Iterative + memo (bottom-up)
+5) Iterative + N variables (bottom-up)

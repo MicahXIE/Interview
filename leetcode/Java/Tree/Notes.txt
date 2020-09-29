@@ -33,3 +33,15 @@ LT124 Binary Tree Maximum Path Sum
 3) Recursive + memo (top-down)
 4) Iterative + memo (bottom-up)
 5) Iterative + N variables (bottom-up)
+
+Stack<Pair<TreeNode, Integer>> stack = new Stack<Pair<TreeNode, Integer>>();
+
+use Deque to replace Stack
+Deque<TreeNode> stack = new ArrayDeque<>(); (push, pop)
+LinkedList<TreeNode> stack = new LinkedList<TreeNode>(); (add, removeLast)
+
+Deque可以由ArrayDeuqe或者LinkedList实现，它们两者使用的区别以及优劣也就是数组和链表的区别，你懂得。
+
+https://chengfeng96.com/blog/2018/01/20/Java%E4%B8%AD%E7%94%A8Deque%E6%8E%A5%E5%8F%A3%E4%BB%A3%E6%9B%BFStack%E6%8E%A5%E5%8F%A3%E5%AE%8C%E6%88%90%E6%A0%88%E5%8A%9F%E8%83%BD/
+
+https://juejin.im/post/6844903838114136071

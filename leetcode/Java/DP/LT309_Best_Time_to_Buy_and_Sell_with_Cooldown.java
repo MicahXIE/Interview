@@ -1,4 +1,6 @@
-class Solution {   // time O(n) space O(1)
+// reference https://zxi.mytechroad.com/blog/dynamic-programming/leetcode-309-best-time-to-buy-and-sell-stock-with-cooldown/
+
+class Solution {   // time O(n) space O(1) 
     public int maxProfit(int[] prices) {
         int hold = Integer.MIN_VALUE;
         int sold = 0;

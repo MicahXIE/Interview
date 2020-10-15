@@ -8,6 +8,8 @@ dp, 卡特兰数
 fibonacci (LT70 Climbing Stairs)
 Morris (LT94)
 
+状态转移算法
+
 LT98 1ms 42.67% check solution
 
 前序遍历(Pre-Order Traversal) : 指先访问根，然后访问子树的遍历方式

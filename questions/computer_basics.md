@@ -130,6 +130,8 @@
   2. 通过Runnable接口创建线程类
   3. 通过Callable和Future创建线程
 
+  https://www.jianshu.com/p/985aa31a52c4
+
   
 - 创建线程池有哪几种方式
 

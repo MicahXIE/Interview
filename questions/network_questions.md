@@ -17,5 +17,10 @@ HTTP 1.1 是在 1.0 发布之后的半年就推出了，完善了 1.0 版本。�
 缓存处理：新增字段cache-control
 断点传输
 
+3. HTTPS 加密原理
+Symmetric encryption
+Asymmetric encryption
+
+HTTPS 在内容传输的加密上使用的是对称加密，非对称加密只作用在证书验证阶段。
 
 
